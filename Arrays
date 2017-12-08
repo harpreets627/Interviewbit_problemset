@@ -1,0 +1,7 @@
+1.Add One To Number:
+Given a non-negative number represented as an array of digits,
+add 1 to the number ( increment the number represented by the digits ).
+The digits are stored such that the most significant digit is at the head of the list.
+
+2. Max sum contiguous subarray:
+Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
