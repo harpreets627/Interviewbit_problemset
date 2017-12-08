@@ -2,3 +2,11 @@
 Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
 If the last word does not exist, return 0.
 
+2: AtoI:
+Implement atoi to convert a string to an integer.
+Questions: Q1. Does string contain whitespace characters before the number?
+A. Yes Q2. Can the string have garbage characters after the number?
+A. Yes. Ignore it. Q3. If no numeric character is found before encountering garbage characters, what should I do?
+A. Return 0. Q4. What if the integer overflows?
+A. Return INT_MAX if the number is positive, INT_MIN otherwise. 
+
