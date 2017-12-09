@@ -10,3 +10,13 @@ A. Yes. Ignore it. Q3. If no numeric character is found before encountering garb
 A. Return 0. Q4. What if the integer overflows?
 A. Return INT_MAX if the number is positive, INT_MIN otherwise. 
 
+
+3: Zigzag String:
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+P.......A........H.......N
+..A..P....L....S....I...I....G
+....Y.........I........R
+And then read line by line: PAHNAPLSIIGYIR
+Write the code that will take a string and make this conversion given a number of rows:
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR"
